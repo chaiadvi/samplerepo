@@ -1,0 +1,77 @@
+git init intellipaat
+cd intellipaat/
+ls -lart
+echo "First Content" > Readme.txt
+cat Readme.txt
+git status
+git add Readme.txt
+git status
+git add .
+git git
+git c
+cd intellipaat/
+git status
+git commit -m "First Commit"
+git status
+echo "Add Additional Content" >> Readme.txt
+cat Readme.txt
+git add Readme.txt
+git status
+git commit -m "Second Commit"
+git status
+git log
+clear
+echo "Additional" >> Readme.txt
+git status
+git restore Readme.txt
+git status
+
+
+
+
+
+git revert b169b9a95014f96c7b7ed6565c5a48e3fc8180a9
+git log
+ls -lart
+git reset --hard 2a8ad0eb26389bd95892c634bc41f2d5a4888cac
+git log
+git branch
+git branch feature/devopslearning
+git branch
+git checkout feature/devopslearning
+git branch
+echo "Adding Content in feature Branch" >> Readme.txt
+git status
+git add .
+git commit -m "Commit performed in feature branch"
+git log
+clear
+git branch
+git log
+history
+git log
+ls -lart
+cat Readme.txt
+git log
+git checkout master
+git log --oneline
+git merge feature/devopslearning
+git log --oneline
+clear
+git log --pretty
+git log --pretty --graph
+git reset --hard 2a8ad0eb26389bd95892c634bc41f2d5a4888cac
+git log
+clear
+git branch
+git merge feature/devopslearning --no-ff
+git log --pretty --graph
+git reset --hard 2a8ad0eb26389bd95892c634bc41f2d5a4888cac
+git log --pretty --graph
+git rebase feature/devopslearning
+git log --pretty --graph
+git branch -l
+git branch -D feature/devopslearning
+git branch -l
+git log --oneline
+history
